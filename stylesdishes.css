@@ -369,6 +369,7 @@ body {
 
 /* Default behavior for larger screens */
 .center-section {
+margin-left: 2px;
   width: 100%;
   display: flex;
   justify-content: center; /* This centers the content horizontally */
@@ -378,6 +379,7 @@ body {
 /* Mobile-specific styles */
 @media (max-width: 768px) {
   .center-section {
+     margin-left: 2px;
     flex-direction: column; /* Stack content vertically on mobile */
     align-items: center; /* Center items horizontally on the page */
   }
