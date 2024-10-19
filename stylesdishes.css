@@ -353,3 +353,33 @@ input[type="checkbox"] {
     line-height: 1.5; /* Improve readability */
   }
 }
+/* General styling for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+/* For centering specific sections on mobile */
+.center-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; /* Adds some margin between sections */
+  width: 100%;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .center-section {
+    flex-direction: column;
+    text-align: center; /* Center the text and content inside */
+  }
+}
+
