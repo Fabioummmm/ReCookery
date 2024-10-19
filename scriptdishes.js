@@ -128,9 +128,4 @@ function downloadAsPDF() {
   
   setInterval(updateHeatmap, 5000);
 
-  document.addEventListener("DOMContentLoaded", function() {
-    // Check if the screen width is less than or equal to 768px (common for mobile devices)
-    if (window.innerWidth <= 768) {
-      window.location.href = "mobile.html"; // Redirect to your mobile-specific page
-    }
-  });
+ 
