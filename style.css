@@ -351,4 +351,53 @@ body {
   height: 100vh;
   pointer-events: none; /* Prevent interaction with the canvas */
 }
+/* General styling for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+/* Style for the ingredients and method sections */
+.ingredients, .method {
+  flex: 1;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styling checkboxes */
+input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2); /* To make the checkboxes larger */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .ingredients {
+    font-size: 1.4em; /* Larger font for ingredients */
+  }
+
+  .method {
+    font-size: 1em; /* Slightly smaller font for steps */
+  }
+
+  .steps p {
+    margin-bottom: 15px;
+    line-height: 1.5; /* Improve readability */
+  }
+}
 
