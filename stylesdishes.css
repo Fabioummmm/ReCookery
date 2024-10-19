@@ -286,3 +286,21 @@ body {
 }
 
 
+/* Targeting mobile devices */
+@media (max-width: 768px) {
+  /* Make the ingredients bigger */
+  .ingredients {
+    font-size: 1.5em; /* Adjust to desired size */
+    font-weight: bold; /* To make it stand out */
+  }
+
+  /* Make the steps text smaller */
+  .steps {
+    font-size: 0.9em; /* Adjust to smaller size */
+    line-height: 1.4; /* Improve readability */
+  }
+}
+
+/* For desktop or larger screens, the default style applies */
+
+
