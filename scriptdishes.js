@@ -127,5 +127,37 @@ function downloadAsPDF() {
   }
   
   setInterval(updateHeatmap, 5000);
+// Function to adjust layout based on screen width
+        function adjustLayout() {
+            const width = window.innerWidth;
 
+            // Get references to elements
+            const mobileDiv = document.querySelector('.mobile');
+            const tabletDiv = document.querySelector('.tablet');
+            const desktopDiv = document.querySelector('.desktop');
+
+            // Apply styles based on screen width
+            if (width <= 600) {
+                // Mobile layout
+                mobileDiv.style.display = 'block';
+                tabletDiv.style.display = 'none';
+                desktopDiv.style.display = 'none';
+            } else if (width > 600 && width <= 1024) {
+                // Tablet layout
+                mobileDiv.style.display = 'none';
+                tabletDiv.style.display = 'block';
+                desktopDiv.style.display = 'none';
+            } else {
+                // Desktop layout
+                mobileDiv.style.display = 'none';
+                tabletDiv.style.display = 'none';
+                desktopDiv.style.display = 'block';
+            }
+        }
+
+        // Run the function when the page loads
+        window.onload = adjustLayout;
+
+        // Run the function when the window is resized
+        window.onresize = adjustLayout;
  
