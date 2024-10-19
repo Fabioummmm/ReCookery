@@ -360,26 +360,31 @@ body {
   padding: 0;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* For centering specific sections on mobile */
+/* Default behavior for larger screens */
 .center-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0; /* Adds some margin between sections */
   width: 100%;
+  display: flex;
+  justify-content: center; /* This centers the content horizontally */
+  margin: 20px 0;
 }
 
 /* Mobile-specific styles */
 @media (max-width: 768px) {
   .center-section {
-    flex-direction: column;
-    text-align: center; /* Center the text and content inside */
+    flex-direction: column; /* Stack content vertically on mobile */
+    align-items: center; /* Center items horizontally on the page */
+  }
+
+  .center-section > * {
+    max-width: 90%; /* Limit the width to make sure it's not stretched */
   }
 }
+
 
