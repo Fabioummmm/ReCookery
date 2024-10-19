@@ -483,26 +483,7 @@ function removeFromFavorites(index) {
   });
 
 
-// Function to apply styles based on screen width
-function adjustLayout() {
-    const width = window.innerWidth;
-    const container = document.querySelector('.container');
-    const header = document.querySelector('header');
-    
-    if (width <= 600) {
-        // Mobile layout
-        container.style.width = '100%'; // Full width for mobile
-        container.style.padding = '10px'; // Smaller padding for mobile
-        header.style.fontSize = '18px';  // Smaller font for mobile header
-        document.body.style.padding = '10px';  // Reduce body padding on mobile
-    } else {
-        // Desktop layout
-        container.style.width = '80%'; // Maintain 80% width for desktop
-        container.style.padding = '20px'; // Restore padding for desktop
-        header.style.fontSize = '24px';  // Normal header font size
-        document.body.style.padding = '20px'; // Restore body padding
-    }
-}
+
 
 // Call adjustLayout on page load
 window.onload = adjustLayout;
