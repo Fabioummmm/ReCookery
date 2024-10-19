@@ -127,37 +127,26 @@ function downloadAsPDF() {
   }
   
   setInterval(updateHeatmap, 5000);
-// Function to adjust layout based on screen width
-        function adjustLayout() {
-            const width = window.innerWidth;
 
-            // Get references to elements
-            const mobileDiv = document.querySelector('.mobile');
-            const tabletDiv = document.querySelector('.tablet');
-            const desktopDiv = document.querySelector('.desktop');
-
-            // Apply styles based on screen width
-            if (width <= 600) {
-                // Mobile layout
-                mobileDiv.style.display = 'block';
-                tabletDiv.style.display = 'none';
-                desktopDiv.style.display = 'none';
-            } else if (width > 600 && width <= 1024) {
-                // Tablet layout
-                mobileDiv.style.display = 'none';
-                tabletDiv.style.display = 'block';
-                desktopDiv.style.display = 'none';
-            } else {
-                // Desktop layout
-                mobileDiv.style.display = 'none';
-                tabletDiv.style.display = 'none';
-                desktopDiv.style.display = 'block';
-            }
-        }
-
-        // Run the function when the page loads
-        window.onload = adjustLayout;
-
-        // Run the function when the window is resized
-        window.onresize = adjustLayout;
  
+
+// Function to apply styles based on screen width
+function adjustLayout() {
+    const width = window.innerWidth;
+    const container = document.querySelector('.container');
+    const header = document.querySelector('header');
+    
+    if (width <= 600) {
+        // Mobile layout
+        container.style.width = '100%'; // Full width for mobile
+        container.style.padding = '10px'; // Smaller padding for mobile
+        header.style.fontSize = '18px';  // Smaller font for mobile header
+        document.body.style.padding = '10px';  // Reduce body padding on mobile
+    } else {
+        // Desktop layout
+        container.style.width = '80%'; // Maintain 80% width for desktop
+        container.style.padding = '20px'; // Restore padding for desktop
+        header.style.fontSize = '24px';  // Normal header font size
+        document.body.style.padding = '20px'; // Restore body padding
+    }
+}
