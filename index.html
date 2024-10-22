@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="IMG/11481899-logo.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/heatmap.js"></script> <!-- Heatmap library -->
+    <!-- Pass = Name -->
+    <title>- ReCookery -</title>
+</head>
+<body>
+
+    <div  id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">🎯</a>
+        
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-btn" onclick="toggleDropdown1()">Main Dishes▼</a>
+            <div class="dropdown-content" id="mainDishesDropdown">
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/dishes.html">Chilli con Carne</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/spaghetti.html">Spaghetti Bolognese</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/chicken.html">Chicken & Chorizo Jambalaya</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/strogonof.html">Beef Stroganoff</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-btn" onclick="toggleDropdown2()">Gluten-Free▼</a>
+            <div class="dropdown-content" id="glutenfreedishesDropdown">
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/glu-free-kinoa.html">Quinoa with Black Beans</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/burgers.html">Burgers</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/chickencurry.html">Chicken Curry</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/Cokkiesglufree.html">Chocolate Cokkies</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/orangeglufreecake.html">Orange Cake</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/buttercokiesglutenfree.html">Butter Cokkies</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/glutenfreechocomuffins.html">Chocolate Muffins</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-btn" onclick="toggleDropdown3()">Desserts▼</a>
+            <div class="dropdown-content" id="bolomaçaDropdown">
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/boloma%C3%A7a.html">Grandma's Apple Cake</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/quequeslimao.html">Lemon Cupcakes</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/chococake.html">Chocolate cake</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/chocolatemousse.html">Gluten-Free Chocolate Mousse</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-btn" onclick="toggleDropdown4()">Drinks▼</a>
+            <div class="dropdown-content" id="DrinksDropdown">
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/chocomilkshake.html">Choco MilkShake</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/Strawberry_BananaMilkshake.html">Strawberry banana milkshake</a>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/TropicalSmoothie.html">Tropical Smoothie</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-btn" onclick="toggleDropdown5()">Comments▼</a>
+            <div class="dropdown-content" id="CommentsDropdown">
+                <a href="#Coments">Comments</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-btn" onclick="toggleDropdown6()">Favorites▼</a>
+            <div class="dropdown-content" id="favoritesDropdown">
+                <a href="#favoritess" >Favorite Dishes</a> 
+            </div>
+            </div>
+
+    
+
+    <div class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-btn" onclick="toggleDropdown8()">Contact Us▼</a>
+            <div class="dropdown-content" id="contactDropdown">
+                <a href="https://www.instagram.com/tigasfab._.11/?next=%2F" target="_blank">Contact Us(Mudar)</a> 
+            </div>
+        </div>
+    </div>        
+</div>
+        
+        
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ ReCookery Menu</button>
+        <div class="content">
+            <h1 class="tit1">- ReCookery -</h1>
+            <h4 class="subt1">- The Best Cooking Recipes -</h4>
+            <p class="descri"><strong>Welcome to Recook</strong> – where cooking meets creativity! Whether you're searching <strong>for the best recipes</strong> to elevate your home cooking or craving inspiration for delicious <strong>cakes</strong>, hearty <strong>lunches</strong>, or cozy <strong>dinners</strong>, we have it all. Indulge in our mouthwatering desserts or explore our carefully curated collection of <strong>no-gluten recipes</strong> that don’t compromise on flavor. From sweet treats to savory dishes and <strong>so much more</strong>, Recook is your go-to source for everything delicious.</p>
+
+            <p class="frase">Let's cook something amazing together!</p>
+
+            <p class="titbol"><strong>😋 Here are some examples of our foods 😋</strong></p>
+
+            <div class="image-row">
+                <div class="container">
+                    <img src="IMG/Chocolate Cake.jpg" alt="Chocolate Cake" class="image">
+                    <div class="middle">
+                        <div class="text">Chocolate Cake</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="IMG/Carrot Cake.jpg" alt="Carrot Cake" class="image">
+                    <div class="middle">
+                        <div class="text">Carrot Cake</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="IMG/Apple Cake.jpg" alt="Apple Cake" class="image">
+                    <div class="middle">
+                        <div class="text">Apple Cake</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="IMG/Orange cake.jpg" alt="Orange Cake" class="image">
+                    <div class="middle">
+                        <div class="text">Orange Cake</div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+            <p class="titfood"> ~ Main Dishes ~</p>
+            <br><br>
+
+           
+            <!-- Recipe Card -->
+<div class="recipe-card">
+    <img src="IMG/Chilli con carne.webp" alt="Chilli con carne recipe" height="110em">
+    <h2>Chilli con carne recipe</h2>
+    <div class="rating">★★★★☆ 60 ratings <br> Easy Recipe ✅</div>
+    <br>
+    <button class="save-favorite-btn" onclick="saveToFavorites('Chilli con carne recipe', 'This great chilli recipe has to be one of the best dishes to serve to friends for a casual get-together.', 'IMG/Chilli con carne.webp', 'Easy Recipe ✅')">Save to Favorites</button><br>
+    <p>This great chilli recipe has to be one of the best dishes to serve to friends for a casual get-together. An easy sharing favourite that uses up storecupboard ingredients.</p>
+    <br>
+    <a href="dishes.html">
+        <button class="glow-button">View Recipe</button>
+    </a>
+</div>
+
+
+
+
+<div class="recipe-card">
+    <img src="IMG/pasta.webp" alt="Spaghetti Bolognese recipe" height="110em">
+    <h2>Spaghetti bolognese recipe</h2>
+    <br>
+    <button class="save-favorite-btn" onclick="saveToFavorites('Spaghetti bolognese recipe', 'Our ultimate spaghetti bolognese recipe is a simple yet authentic Italian dish, featuring a rich, savory meat sauce with a hint of chili.', 'IMG/pasta.webp', 'Easy Recipe ✅')">Save to Favorites</button><br><br>
+    <div class="rating">★★★★☆ 23 ratings <br> Easy Recipe ✅</div>
+    <p>Our ultimate spaghetti bolognese recipe is a simple yet authentic Italian dish, featuring a rich, savory meat sauce with a hint of chili. This classic pasta dish is bound to become a beloved favorite for the whole family.</p>
+    <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/spaghetti.html">
+        <button class="glow-button">View Recipe</button>
+    </a>
+</div>
+
+<div class="recipe-card">
+    <img src="IMG/chicken.webp" alt="Chicken & chorizo jambalaya" height="110em">
+    <h2>Chicken & chorizo jambalaya recipe</h2>
+    <div class="rating">★★★★☆ 57 ratings <br> Super Easy Recipe ✅</div>
+    <br>
+    <button class="save-favorite-btn" onclick="saveToFavorites('Chicken & chorizo jambalaya recipe', 'A healthy Cajun-inspired rice pot recipe that\'s bursting with spicy Spanish sausage, sweet peppers and tomatoes.', 'IMG/chicken.webp', 'Easy Recipe ✅')">Save to Favorites</button><br>
+    <p>A healthy Cajun-inspired rice pot recipe that's bursting with spicy Spanish sausage, sweet peppers and tomatoes.</p>
+    <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/chicken.html">
+        <button class="glow-button">View Recipe</button>
+    </a>
+</div>
+
+<div class="recipe-card">
+    <img src="IMG/Beef stroganoff.jpg" alt="Beef stroganoff" height="110em">
+    <h2>Beef stroganoff recipe</h2>
+    <div class="rating">★★★★☆ 17 ratings <br> Easy Recipe ✅</div>
+    <br>
+    <button class="save-favorite-btn" onclick="saveToFavorites('Beef stroganoff recipe', 'Prepare a timeless beef stroganoff featuring tender steak and savory mushrooms for a delightful midweek dinner.', 'IMG/Beef stroganoff.jpg', 'Easy Recipe ✅')">Save to Favorites</button><br>
+    <p>Prepare a timeless beef stroganoff featuring tender steak and savory mushrooms for a delightful midweek dinner. Finish with a garnish of fresh parsley and serve alongside pappardelle pasta or steamed rice for a complete meal.</p>
+    <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/strogonof.html">
+        <button class="glow-button">View Recipe</button>
+    </a>
+</div>
+
+
+            <p class="titfood"> ~ Gluten-Free Dishes ~</p>
+
+            <div class="recipe-card">
+                <img src="IMG/quimoa.jfif" alt="Quinoa with Black beans" height="110em">
+                <h2>Quinoa with Black beans recipe</h2>
+                <div class="rating">★★★★☆ 34 ratings <br> Super Easy Recipe ✅</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Quinoa with Black beans recipe', 'Experience the perfect fusion of quinoa and beans in this flavorful side dish, ready to enjoy in just 30 minutes. Quick, nutritious, and delicious, it\'s an ideal addition to any meal.', 'IMG/quimoa.jfif', 'Super Easy Recipe ✅')">Save to Favorites</button><br>
+                <p>Experience the perfect fusion of quinoa and beans in this flavorful side dish, ready to enjoy in just 30 minutes. Quick, nutritious, and delicious, it's an ideal addition to any meal.</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/glu-free-kinoa.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+            
+            <div class="recipe-card">
+                <img src="IMG/Burguers.jpg" alt="Burgers" height="110em">
+                <h2>Burgers recipe</h2>
+                <div class="rating">★★★★☆ 23 ratings <br> Super Easy Recipe ✅</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Burgers recipe', 'Elevate your outdoor dining experience with these light and flavorful seafood burgers—an excellent pescatarian option for your next barbecue.', 'IMG/Burguers.jpg', 'Super Easy Recipe ✅')">Save to Favorites</button><br>
+                <p>Elevate your outdoor dining experience with these light and flavorful seafood burgers—an excellent pescatarian option for your next barbecue.</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/burgers.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+            
+            <div class="recipe-card">
+                <img src="IMG/chicken curry.jpg" alt="Chicken curry" height="110em">
+                <h2>Chicken Curry recipe</h2>
+                <div class="rating">★★★★☆ 62 ratings <br> Super Easy ✅</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Chicken Curry recipe', 'Brimming with aromatic spices such as cumin, coriander, and mild chili, this slow-cooker curry delivers a bold and flavorful experience.', 'IMG/chicken curry.jpg', 'Super Easy Recipe ✅')">Save to Favorites</button><br>
+                <p>Brimming with aromatic spices such as cumin, coriander, and mild chili, this slow-cooker curry delivers a bold and flavorful experience.</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/chickencurry.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+
+            <div class="recipe-card">
+                <img src="IMG/Guten Free Chocolate cookies.jpg" alt="Guten Free Chocolate cookies" height="110em">
+                <h2>Guten Free Chocolate cookies</h2>
+                <div class="rating">★★★★☆ 8 ratings <br> Medium ✅</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Guten Free Chocolate cookies', 'These gluten-free chocolate chip cookies are chewy, with crisp edges and gooey centers. A medium-difficulty recipe that’s a crowd favorite—just brown the butter, rest the dough, and use a quality flour blend!', 'IMG/Guten Free Chocolate cookies.jpg', 'Medium recipe ✅')">Save to Favorites</button><br>
+                <p>These amazing gluten-free chocolate chip cookies offer the perfect blend of chewy centers and crisp, golden edges. It's a medium-difficulty recipe that’s earned rave reviews for its rich, gooey texture. For the best results, brown the butter, let the dough rest for 30 minutes, and use a high-quality gluten-free flour blend.</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/Cokkiesglufree.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+            <div class="recipe-card">
+                <img src="IMG/glufreeorangecake.jpeg" alt="Guten Free Chocolate cookies" height="110em">
+                <h2>Guten Free Orange cake</h2>
+                <div class="rating">★★★★★ 12 ratings <br> Medium ✅</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Guten Free Orange cake', 'Brighten up your baking with this gluten- and dairy-free orange olive oil cake, topped with a fragrant rosemary and cardamom drizzle.', 'IMG/glufreeorangecake.jpeg', 'Medium recipe ✅')">Save to Favorites</button><br>
+
+                <p>Elevate your baking with a burst of citrusy brightness in this gluten-free and dairy-free orange olive oil cake, finished with a delicate rosemary and cardamom drizzle. Infused with vibrant flavors, it's wonderfully fragrant and irresistibly delicious.</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/orangeglufreecake.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+            
+            <div class="recipe-card">
+                <img src="IMG/butter cokkies.jpg" alt="Guten Free Chocolate cookies" height="110em">
+                <h2> Leo´s Guten Free Butter Cokkies</h2>
+                <div class="rating">★★★★★ 12 ratings <br> Easy ✅</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites(' Leo´s Guten Free Butter Cokkies', 'This simple yet delightful gluten-free butter cookie can be elegantly decorated with your choice of favorite sugars or candies, adding a personalized touch to each treat.', 'IMG/butter cokkies.jpg', 'Easy recipe ✅')">Save to Favorites</button><br>
+
+                <p>This simple yet delightful gluten-free butter cookie can be elegantly decorated with your choice of favorite sugars or candies, adding a personalized touch to each treat.</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/buttercokiesglutenfree.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+
+            <div class="recipe-card" id="muffins">
+                <img src="IMG/chocolate muffins.jpg" alt="Guten Free Chocolate cookies" height="110em">
+                <h2>Guten Free Chocolate Muffins</h2>
+                <div class="rating">★★★★★ 12 ratings <br> Easy ✅</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Guten Free Chocolate Muffins','You won´t believe these decadently sweet chocolate muffins are gluten-free but they are! Indulge yourself and give them a try', 'IMG/chocolate muffins.jpg', 'Easy recipe ✅')">Save to Favorites</button><br>
+
+                <p>You won't believe these decadently sweet chocolate muffins are gluten-free—but they are! Indulge yourself and give them a try.</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/glutenfreechocomuffins.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+
+            <p class="titfood"> ~ Desserts ~</p>
+
+            <div class="recipe-card1">
+                <img src="IMG/Apple Cake.jpg" alt="Grandma's apple cake" height="110px">
+                <h2>Grandma's apple cake recipe</h2>
+                <div class="rating">★★★★☆ 34 ratings <br> Super Easy Recipe ✅ 😋</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Grandma\'s apple cake recipe', 'Indulge in the timeless flavors of our Apple and Orange Cake, a beloved family recipe passed down from my grandmother. This delightful dessert is super easy to make.', 'IMG/Apple Cake.jpg', 'Super Easy Recipe ✅ 😋')">Save to Favorites</button><br>
+                <p>Indulge in the timeless flavors of our Apple and Orange Cake, a beloved family recipe passed down from my grandmother. This delightful dessert is super easy to make.</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/boloma%C3%A7a.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+            
+            <div class="recipe-card1">
+                <img src="IMG/quequelimao.jpg" alt="Grandma's Lemon cupcakes" height="110px">
+                <h2>Grandma's Lemon Cupcakes recipe</h2>
+                <div class="rating">★★★★★ 34 ratings <br> Super Easy Recipe ✅ 😋</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Grandma\'s Lemon Cupcakes recipe', 'Enjoy these zesty and fluffy lemon cupcakes, perfect for any occasion. This delightful dessert is easy to make and sure to impress!', 'IMG/quequelimao.jpg', 'Super Easy Recipe ✅ 😋')">Save to Favorites</button><br>
+                <p>Enjoy these zesty and fluffy lemon cupcakes, perfect for any occasion. This delightful dessert is easy to make and sure to impress!</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/quequeslimao.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+
+            <div class="recipe-card1">
+                <img src="IMG/chocolatecake2.jpeg" alt=" Sticky chocolate cake " height="110px">
+                <h2> Sticky chocolate cake </h2>
+                <div class="rating">★★★★★ 20 ratings <br> Super Easy Recipe ✅ 😋</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites(' Sticky chocolate cake ', 'Indulge in this irresistible recipe, ready in just 1 hour and 5 minutes! Crafted with carefully selected ingredients, it’s perfect for serving up to 10 guests, making it an ideal choice for gatherings and special occasions.', 'IMG/chocolatecake2.jpeg', 'Super Easy Recipe ✅ 😋')">Save to Favorites</button><br>
+                <p>Indulge in this irresistible recipe, ready in just 1 hour and 5 minutes! Crafted with carefully selected ingredients, it’s perfect for serving up to 10 guests, making it an ideal choice for gatherings and special occasions.</p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/chococake.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+
+            <p class="titfood"> ~ Drinks ~</p>
+
+            <div class="recipe-card1">
+                <img src="IMG/milkshakechoco.png" alt="Choco milkshake" height="110px">
+                <h2>Grandma's apple cake recipe</h2>
+                <div class="rating">★★★★☆ 7 ratings <br> Super Easy Recipe ✅🍫😋</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Choco milkshake', 'This delightful treat is a special chilled drink topped with marshmallows, cream, and a drizzle of chocolate spread for a perfect presentation.', 'IMG/milkshakechoco.png', 'Super Easy Recipe ✅🍫😋')">Save to Favorites</button><br>
+                <p>This delightful treat is a special chilled drink topped with marshmallows, cream, and a drizzle of chocolate spread for a perfect presentation.
+                </p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/chocomilkshake.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+
+            <div class="recipe-card1">
+                <img src="IMG/Strawberry banana milkshake.jpg" alt="Strawberry banana milkshake" height="110px">
+                <h2>Strawberry banana milkshake</h2>
+                <div class="rating">★★★★☆ 6 ratings <br> Super Easy Recipe ✅😋</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Strawberry banana milkshake', 'This delicious milkshake combines strawberry, banana, and ice cream, making it an easy way to get fruit and dairy into kids who might otherwise resist.', 'IMG/Strawberry banana milkshake.jpg', 'Super Easy Recipe ✅😋')">Save to Favorites</button><br>
+                <p>This delicious milkshake combines strawberry, banana, and ice cream, making it an easy way to get fruit and dairy into kids who might otherwise resist.
+                </p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/Strawberry_BananaMilkshake.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+            
+            <div class="recipe-card1">
+                <img src="IMG/BubbleTea.webp" alt="Maple bubble tea" height="110px">
+                <h2>Maple bubble tea</h2>
+                <div class="rating">★★★★☆ 5 ratings <br> Super Easy Recipe ✅😋</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Maple bubble tea', 'Bubble tea is a delicious cold tea drink with chewy tapioca pearls at the bottom. It can be made with black or green tea and various types of milk, such as whole, soy, or condensed milk. Popular for its endless flavor and jelly topping options, this recipe is sweetened with maple syrup and can easily be prepared at home. Just use a wide straw to enjoy the tapioca pearls!', 'IMG/BubbleTea.webp', 'Super Easy Recipe ✅😋')">Save to Favorites</button><br>
+                <p>Bubble tea is a delicious cold tea drink with chewy tapioca pearls at the bottom. It can be made with black or green tea and various types of milk, such as whole, soy, or condensed milk. Popular for its endless flavor and jelly topping options, this recipe is sweetened with maple syrup and can easily be prepared at home. Just use a wide straw to enjoy the tapioca pearls!
+                </p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/Maple%20bubble%20tea.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+
+            <div class="recipe-card1">
+                <img src="IMG/tropical smoothie.jpg" alt="Tropical Smoothie" height="110px">
+                <h2>Tropical Smoothie</h2>
+                <div class="rating">★★★★☆ 11 ratings <br> Super Easy Recipe ✅😋</div>
+                <br>
+                <button class="save-favorite-btn" onclick="saveToFavorites('Tropical Smoothie', 'If you prefer a quiet morning without the blender, try this: Chia seeds absorb excess liquid as a mix of mango, passion fruit, and cashew milk chills in the fridge overnight, resulting in a smooth, ready-to-enjoy breakfast,', 'IMG/tropical smoothie.jpg', 'Super Easy Recipe ✅😋')">Save to Favorites</button><br>
+                <p>If you enjoy beginning your day with a smoothie but dread the noise of a blender in the early morning, here’s a perfect alternative: Chia seeds naturally absorb excess liquid as the vibrant blend of mango, passion fruit, and cashew milk rests in the refrigerator overnight, creating a deliciously smooth start to your day.
+                </p>
+                <a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/TropicalSmoothie.html">
+                    <button class="glow-button">View Recipe</button>
+                </a>
+            </div>
+    </div>
+
+
+
+    <p class="com"> ~ Comments ~</p>
+
+
+    <div id="Coments" class="comments-container">
+        <h3>Comments & Ratings</h3>
+    
+        <!-- Form to submit new comment and rating -->
+        <div class="comment-form">
+            <input type="text" id="comment-name" placeholder="Your name" required>
+            <textarea id="comment-text" placeholder="Leave your comment here" required></textarea>
+    
+            <!-- Star Rating -->
+            <div id="star-rating" class="star-rating">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            
+            <button onclick="submitComment()">Submit</button>
+        </div>
+    
+        <!-- Container to display comments -->
+        <div id="comments-list"></div>
+        <button id="view-more-btn" onclick="viewMoreComments()" style="display:none;">View More &#8595;</button>
+    </div>
+    
+    
+    
+   <!-- Menu Link to View Favorites -->
+   <p class="com" id="favoritess"> ~ Favorites ~</p>
+
+   <br><p>Click on the button to see all the Favorite Dishes</p>
+  
+   <div class="fav">
+   <button class="glow-button1">
+<nav>
+    <ul>
+        <li><a style="text-decoration: none;" href="#favoritess" onclick="showFavorites()">View Favorites</a></li>
+    </ul>
+</nav> 
+
+</button>
+</div>
+<!-- Section to Display Favorites -->
+<div id="favorites-section" style="display: none;"> 
+    <h3>Your Favorite Recipes</h3>
+    <div id="favorites-list"></div>
+</div>
+<br><br><br>
+
+<p class="com" id="down"> ~ Download ~</p>
+
+<p style="text-align: center; width: 55rem;">😉 In case you want to see our recipes later, but you don't have wifi, just download the page and check it out then 😉</p>
+<div class="down" >
+<button onclick="downloadAsPDF()">Download PDF</button>
+</div>
+
+
+
+
+
+<canvas id="trailCanvas"></canvas>
+    <script src="script.js"></script>
+
+
+
+    <style>
+        /* General styles for larger screens (default) */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    
+    .centered-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+    
+    .content {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 800px; /* Maximum width for desktop */
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Media query for mobile devices (up to 480px) */
+    @media (max-width: 480px) {
+      .centered-container {
+        align-items: flex-start; /* Align content to the top for mobile */
+        padding-top: 2rem; /* Add padding at the top */
+        height: auto; /* Allow the content to scroll if it's longer than the viewport */
+      }
+    
+      .content {
+        padding: 1rem; /* Reduce padding inside the content box for smaller screens */
+        max-width: 90%; /* Make the content take up most of the screen width on mobile */
+        margin: 0 auto; /* Center the content horizontally */
+        border-radius: 5px; /* Smaller corner radius on mobile */
+      }
+    }
+    @media (max-width: 480px) {
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block; /* Ensures images are displayed as block-level elements */
+        margin: 0 auto; /* Centers images horizontally if they are smaller */
+      }
+    }
+    
+    
+    
+    </style>
+    
+    
+</body>
+</html>

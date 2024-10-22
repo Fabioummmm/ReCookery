@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesdishes.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="imagex/png" href="IMG/11481899-logo.jpg">
+        <script src="scriptdishes.js" defer></script>
+        <title> - Desserts - </title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <ul class="menu">
+      <li><a href="file:///C:/Users/Tiago%20F/Desktop/WEB%20receitas/index.html">Home</a></li>
+      <li><a href="#reci">Recipe</a></li>
+      <li><a href="#clo">Clock</a></li>
+      <li><a href="#rev">Reviews</a></li>
+    </ul>
+  </nav>
+    <h1 class="dishes">- Sticky chocolate cake -</h1>
+    <img src="IMG/chocolatecake2.jpeg" alt="Sticky chocolate cake" height="300rem" >
+    <br><br><br><br>
+    <table id="reci">
+      <tr>
+        <th class="subtit">Ingredients</th>
+        <th class="subtit">Method</th><br>
+      </tr>
+      <br>
+      <tr>
+        <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><b>220g</b>  butter, softened, plus more for tin</td>
+        <td>
+          <b>STEP 1</b><br>
+          Preheat the oven to 170C/Gas 3. Cream the butter and sugar with an electric mixture until light and fluffy.
+        </td>
+      </tr>
+      <tr>
+        <td> <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <b>350g</b>
+             dark brown sugar</td>
+        <td>
+          <b>STEP 2</b><br>
+          
+          Heat the coffee, water and chocolate chips in a saucepan over low heat, stirring often until chocolate has melted entirely. Add the coffee-chocolate mixture to the creamed sugar and butter.
+
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><b>1 tbsp</b>         
+         instant coffee
+</td>
+        <td>
+          <b>STEP 3</b><br>
+          Beat in the eggs, 1 at a time until incorporated, and then mix in the vanilla essence. Combine the flour, baking powder, salt, cinnamon and nutmeg in a mixing bowl and stir together with a fork until incorporated. Gradually beat the dry mixture into the wet mixture. Finally, fold in the raisins and walnuts.
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><b>320ml</b>  
+             water</td>
+        <td>
+          <b>STEP 4</b><br>
+          Butter and lightly dust a bundt pan with flour. Pour the cake batter into the pan and bake for about 45 to 50 minutes or until a sharp knife point inserted into the cake comes out clean.    </td>
+      </tr>
+      <tr>
+      </tr>
+                <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <b> 175g</b> plain chocolate chips
+                </td>
+                <td>
+                  <b>STEP 5</b><br>
+                  Allow the cake to cool to room temperature on a rack before inverting. Dust with icing sugar and serve.
+                </td>
+              </tr>
+              <tr>
+      
+ 
+
+    <tr>
+                <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><b> 2 tsp </b> 
+                   vanilla essence </td></tr>
+
+                    <tr>
+        <td>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><b>225g</b> 
+             
+        plain flour, plus more for tin </td></tr>
+
+        <tr>
+     <td>
+     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <b> 1 tbsp</b>
+     baking powder </td>
+</tr>
+<tr>
+    <td>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <b> 1/2 tsp</b>
+     salt </td>
+</tr>
+
+<tr>
+     <td>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><b> 1 tsp </b>
+       ground cinnamon
+    </td></tr>
+    <tr>
+    <td>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><b>1/2 tsp</b> ground nutmeg
+    </td></tr>
+    <tr>
+    <td>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><b> 115g </b>
+        raisins
+    </td></tr>
+    <tr>
+    <td>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><b>100g </b> 
+         walnuts
+    </td></tr>
+    <tr>
+    <td>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        Icing sugar, for garnish
+    </td></tr>
+    
+      
+    
+    </table>
+  
+
+    <div class="timer-container" id="clo">
+      <h2>Recipe Timer</h2>
+   
+      <div class="input-fields">
+        <label for="hours">Hours:</label>
+        <input type="number" id="hours" min="0" value="0">
+   
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="minutes" min="0" value="0">
+   
+        <label for="seconds">Seconds:</label>
+        <input type="number" id="seconds" min="0" value="0">
+      </div>
+   
+      <div class="timer-display" id="timerDisplay">00:00:00</div>
+   
+      <div class="controls">
+        <button id="startBtn">Start Timer</button>
+        <button id="pauseBtn" disabled>Pause Timer</button>
+        <button id="resetBtn" disabled>Reset Timer</button>
+        <button id="stopSoundBtn">Stop Sound</button>
+      </div>
+  
+      <!-- Audio element to play sound when timer reaches zero -->
+      <audio id="alarmSound" src="Sound/clock-sound---alarm.mp4" preload="auto"></audio>
+    </div>
+  
+    <br><br>
+    <p class="titfood" id="rev"> ~ Reviews ~</p>
+
+    <div id="Coments" class="comments-container">
+      <h3>Comments & Ratings</h3>
+  
+      <!-- Form to submit new comment and rating -->
+      <div class="comment-form">
+          <input type="text" id="comment-name" placeholder="Your name" required>
+          <textarea id="comment-text" placeholder="Leave your comment here" required></textarea>
+  
+          <div class="star-rating">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+          </div>
+          
+          <button onclick="submitComment()">Submit</button>
+      </div>
+  
+      <!-- Container to display comments -->
+      <div id="comments-list"></div>
+      <button id="view-more-btn" onclick="viewMoreComments()" style="display:none;">View More &#8595;</button>
+  </div>
+
+  <p class="com" id="down"> ~ Download ~</p>
+
+  <p style="text-align: center; width: 55rem;">😉 In case you want to see our recipes later, but you don't have wifi, just download the page and check it out then 😉</p>
+  <div class="down" >
+  <button onclick="downloadAsPDF()">Download PDF</button>
+  </div>
+  
+  
+  
+  
+  
+  <canvas id="trailCanvas"></canvas>
+      <div id="heatmapContainer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+      <script src="script.js"></script>
+
+
+
+
+
+
+
+    <script>
+      let timer;
+      let remainingTime;
+      let isPaused = false;
+      let soundInterval;  // To control sound looping
+  
+      const startBtn = document.getElementById('startBtn');
+      const pauseBtn = document.getElementById('pauseBtn');
+      const resetBtn = document.getElementById('resetBtn');
+      const stopSoundBtn = document.getElementById('stopSoundBtn'); // Get the stop sound button
+      const timerDisplay = document.getElementById('timerDisplay');
+      const alarmSound = document.getElementById('alarmSound'); // Get the audio element
+   
+      // Automatically select the number on focus
+      const inputFields = document.querySelectorAll('.input-fields input');
+      inputFields.forEach(input => {
+        input.addEventListener('focus', () => {
+          input.select(); // Automatically selects the content (the "0")
+        });
+      });
+   
+      function updateDisplay(hours, minutes, seconds) {
+        const h = String(hours).padStart(2, '0');
+        const m = String(minutes).padStart(2, '0');
+        const s = String(seconds).padStart(2, '0');
+        timerDisplay.textContent = `${h}:${m}:${s}`;
+      }
+   
+      function startTimer() {
+        const inputHours = parseInt(document.getElementById('hours').value, 10);
+        const inputMinutes = parseInt(document.getElementById('minutes').value, 10);
+        const inputSeconds = parseInt(document.getElementById('seconds').value, 10);
+   
+        remainingTime = (inputHours * 3600) + (inputMinutes * 60) + inputSeconds;
+   
+        if (remainingTime <= 0) {
+          alert('Please set a valid time.');
+          return;
+        }
+  
+        startBtn.disabled = true;
+        pauseBtn.disabled = false;
+        resetBtn.disabled = false;
+   
+        isPaused = false;
+        runTimer();
+      }
+   
+      function runTimer() {
+        timer = setInterval(() => {
+          if (!isPaused && remainingTime > 0) {
+            remainingTime--;
+   
+            const hours = Math.floor(remainingTime / 3600);
+            const minutes = Math.floor((remainingTime % 3600) / 60);
+            const seconds = remainingTime % 60;
+   
+            updateDisplay(hours, minutes, seconds);
+          } else if (remainingTime === 0) {
+            clearInterval(timer);
+  
+            // Play the sound repeatedly (ring effect)
+            playSoundRepeatedly();
+            
+            resetTimer();
+          }
+        }, 1000);
+      }
+  
+      function playSoundRepeatedly() {
+        // Play sound every second (acts like a ringing effect)
+        soundInterval = setInterval(() => {
+          alarmSound.play().catch((error) => {
+            console.log('Error playing sound:', error); // Log error if sound fails to play
+          });
+        }, 1000); // Play sound every second
+        stopSoundBtn.style.display = 'inline-block'; // Show the stop sound button
+      }
+  
+      function pauseTimer() {
+        isPaused = !isPaused;
+        pauseBtn.textContent = isPaused ? 'Resume Timer' : 'Pause Timer';
+      }
+   
+      function resetTimer() {
+        clearInterval(timer);
+        startBtn.disabled = false;
+        pauseBtn.disabled = true;
+        resetBtn.disabled = true;
+        pauseBtn.textContent = 'Pause Timer';
+        updateDisplay(0, 0, 0);
+        document.getElementById('hours').value = 0;
+        document.getElementById('minutes').value = 0;
+        document.getElementById('seconds').value = 0;
+      }
+  
+      // Stop sound button functionality
+      stopSoundBtn.addEventListener('click', () => {
+        clearInterval(soundInterval);  // Stop the repeated sound effect
+        alarmSound.pause();  // Pause any currently playing sound
+        alarmSound.currentTime = 0;  // Reset sound position to the start
+        stopSoundBtn.style.display = 'none';  // Hide the stop button after stopping sound
+      });
+  
+      startBtn.addEventListener('click', startTimer);
+      pauseBtn.addEventListener('click', pauseTimer);
+      resetBtn.addEventListener('click', resetTimer);
+
+      /*COMENTS*/
+
+
+
+     // Admin password for deleting comments
+const adminPassword = 'ReCookery'; // Password for deleting comments
+
+// Variable to store the selected star rating
+let selectedRating = 1; // Default is 1 star
+let comments = []; // Global variable to store all comments
+let visibleComments = 3; // Number of comments visible by default
+
+// Function to load comments from localStorage
+function loadComments() {
+    let commentsList = document.getElementById('comments-list');
+    commentsList.innerHTML = '';
+
+    // Retrieve comments from localStorage
+    comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+    // Display only the last `visibleComments` comments
+    let displayComments = comments.slice(-visibleComments);
+
+    displayComments.forEach((comment, index) => {
+        let commentDiv = document.createElement('div');
+        commentDiv.className = 'comment-item';
+
+        let commentName = document.createElement('p');
+        commentName.className = 'comment-name';
+        commentName.innerText = comment.name;
+
+        let commentText = document.createElement('p');
+        commentText.className = 'comment-text';
+        commentText.innerText = comment.text;
+
+        let commentRating = document.createElement('span');
+        commentRating.className = 'comment-rating';
+        commentRating.innerHTML = 'Rating: ' + '★'.repeat(comment.rating);
+
+        // Delete button (visible to all, but protected by a password prompt)
+        let deleteButton = document.createElement('button');
+        deleteButton.className = 'delete-button';
+        deleteButton.innerText = 'Delete';
+        deleteButton.onclick = () => deleteComment(comments.length - 1 - index); // Adjusted index for correct deletion
+
+        commentDiv.appendChild(commentName);
+        commentDiv.appendChild(commentText);
+        commentDiv.appendChild(commentRating);
+        commentDiv.appendChild(deleteButton);
+
+        commentsList.appendChild(commentDiv);
+    });
+
+    // Show or hide the "View More" button based on the number of comments
+    document.getElementById('view-more-btn').style.display = comments.length > visibleComments ? 'block' : 'none';
+}
+
+// Function to handle star selection
+document.querySelectorAll('.star').forEach(star => {
+    star.addEventListener('click', function() {
+        // Set selectedRating based on the data-value of the clicked star
+        selectedRating = this.getAttribute('data-value');
+        highlightStars(selectedRating);
+    });
+});
+
+// Function to highlight stars based on the selected rating
+function highlightStars(rating) {
+    // Light up stars from left to right
+    document.querySelectorAll('.star').forEach(star => {
+        if (star.getAttribute('data-value') <= rating) {
+            star.classList.add('selected'); // Light up the star
+        } else {
+            star.classList.remove('selected'); // Turn off the star
+        }
+    });
+}
+
+// Function to submit a new comment
+function submitComment() {
+    let commentName = document.getElementById('comment-name').value;
+    let commentText = document.getElementById('comment-text').value;
+
+    // Check if name and comment text are not empty
+    if (commentName === "" || commentText === "") {
+        alert("Please enter your name and comment.");
+        return;
+    }
+
+    // Add the new comment
+    comments.push({
+        name: commentName,
+        text: commentText,
+        rating: selectedRating // Store the selected rating (1 to 5)
+    });
+
+    // Save the comments back to localStorage
+    localStorage.setItem('comments', JSON.stringify(comments));
+
+    // Clear the form
+    document.getElementById('comment-name').value = "";
+    document.getElementById('comment-text').value = "";
+    selectedRating = 1; // Reset to default rating
+    highlightStars(selectedRating); // Reset star highlighting
+
+    // Reload comments to display the new one
+    loadComments();
+}
+
+// Function to delete a comment with password protection
+function deleteComment(index) {
+    let password = prompt("Enter the admin password to delete this comment:");
+
+    if (password === adminPassword) {
+        // Remove the comment at the given index
+        comments.splice(index, 1);
+
+        // Save the updated comments back to localStorage
+        localStorage.setItem('comments', JSON.stringify(comments));
+
+        // Reload the comments
+        loadComments();
+    } else {
+        alert("Incorrect password. You are not authorized to delete this comment.");
+    }
+}
+
+// Function to show more comments when the button is clicked
+function viewMoreComments() {
+    visibleComments += 3; // Increase the number of visible comments
+    loadComments(); // Reload comments to show more
+}
+
+// Load the comments when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    loadComments();
+    highlightStars(selectedRating); // Initialize with default rating
+});
+    </script>
+</body>
+</html>
+
+
+
+
+
